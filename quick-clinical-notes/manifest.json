@@ -1,1 +1,23 @@
-
+{
+    "manifest_version": 3,
+    "name": "Quick Clinical Notes",
+    "description": "Fast, distraction-free clinical note capture with timestamps.",
+    "version": "1.0.0",
+    "action": {
+        "default_title": "Quick Clinical Notes",
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": [
+        "storage",
+        "clipboardWrite"
+    ],
+    "icons": {
+        "16": "assets/icons/icon16.png",
+        "48": "assets/icons/icon48.png",
+        "128": "assets/icons/icon128.png"
+    },
+    "background": {
+        "service_worker": "service_worker.js",
+        "type": "module"
+    }
+}

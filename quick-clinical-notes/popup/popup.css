@@ -21,10 +21,14 @@ textarea {
   margin-top: 8px;
 }
 
+.actions.secondary {
+  margin-top: 6px;
+}
+
 button {
   flex: 1;
   padding: 6px;
-  font-size: 13px;
+  font-size: 12px;
   cursor: pointer;
 }
 

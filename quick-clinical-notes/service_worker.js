@@ -1,7 +1,4 @@
 'use strict';
 
-// Reserved for future features:
-// - alarms
-// - auto-export
-// - keyboard shortcuts
-
+// Currently not required.
+// Reserved for future features like shortcuts or alarms.

@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quick Clinical Notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <textarea
+      id="noteInput"
+      placeholder="Type clinical note…"
+      autofocus
+    ></textarea>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Quick Clinical Notes</title>
-  <link rel="stylesheet" href="popup.css" />
-</head>
+    <div class="actions">
+      <button id="saveBtn">Save</button>
+      <button id="insertBtn">Insert</button>
+    </div>
 
-<body>
-  <textarea id="noteInput" placeholder="Type clinical note…" autofocus></textarea>
+    <div class="actions secondary">
+      <button id="newPatientBtn">New Patient</button>
+      <button id="copyBtn">Copy</button>
+      <button id="exportBtn">Export</button>
+    </div>
 
-  <div class="actions">
-    <button id="saveBtn">Save</button>
-    <button id="copyBtn">Copy All</button>
-    <button id="exportBtn">Export</button>
-  </div>
+    <div id="status"></div>
 
-  <div id="status"></div>
-
-  <script src="popup.js"></script>
-</body>
-
+    <script src="popup.js"></script>
+  </body>
 </html>

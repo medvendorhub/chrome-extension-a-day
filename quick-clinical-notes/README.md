@@ -1,16 +1,21 @@
 # Quick Clinical Notes
 
-**Quick Clinical Notes** is a lightweight Chrome extension for fast, distraction-free clinical note capture—right from your browser.
+![Build](https://img.shields.io/badge/status-active_development-success)
+![Chrome Extension](https://img.shields.io/badge/platform-Chrome_Extension-blue)
+![Privacy](https://img.shields.io/badge/privacy-local--only-green)
+![Built in Public](https://img.shields.io/badge/built_in-public-orange)
 
-Designed for clinicians who need to jot down thoughts during reviews without breaking focus.
+**Quick Clinical Notes** is a lightweight Chrome extension for fast, distraction-free clinical note capture—built to support clinicians during live reviews without interrupting workflow.
+
+This project is independently designed, built, and maintained as part of a public Chrome Extension-a-Day challenge focused on clinician productivity tools.
 
 ---
 
 ## Features
 
-- Minimal popup interface — no clutter, no distractions  
-- Automatic timestamps for every note  
-- Local-only storage — nothing leaves your device  
+- Minimal popup interface for rapid note capture  
+- Automatic timestamps for clinical context  
+- Local-only storage (no cloud, no sync)  
 - One-click copy to clipboard  
 - Export notes as a `.txt` file  
 
@@ -18,23 +23,21 @@ Designed for clinicians who need to jot down thoughts during reviews without bre
 
 ## Privacy & Data
 
-Privacy is a core principle of this extension.
+Privacy-by-design.
 
 - No tracking  
 - No analytics  
 - No cloud sync  
-- All notes are stored locally on your device  
+- All notes remain on the user’s device  
 
 ---
 
 ## Installation (Developer Mode)
 
-1. Open `chrome://extensions` in your browser  
-2. Enable **Developer Mode** (top-right corner)  
+1. Open `chrome://extensions`  
+2. Enable **Developer Mode**  
 3. Click **Load unpacked**  
 4. Select the project folder  
-
-The extension will now be available in your Chrome toolbar.
 
 ---
 
@@ -43,10 +46,18 @@ The extension will now be available in your Chrome toolbar.
 - Clinical reviews  
 - Ward rounds  
 - Patient follow-ups  
-- Quick reminders during EMR usage  
+- Temporary notes alongside EMR systems  
+
+---
+
+## Technical Notes
+
+- Built using standard Chrome Extension APIs (Manifest V3)  
+- Service worker–based background logic  
+- Local storage only (no external dependencies)  
 
 ---
 
 ## Status
 
-This project is actively being developed as part of a **Chrome Extension-a-Day** challenge.
+Actively developed and iterated in public as part of a daily Chrome extension build challenge.

@@ -9,9 +9,11 @@
 
 **Quick Clinical Notes** is a lightweight Chrome extension for fast, distraction-free clinical note capture—built to support clinicians during live reviews without interrupting workflow.
 
-This project is independently designed, built, and maintained as part of a public Chrome Extension-a-Day challenge focused on clinician productivity tools.
+This project is independently designed, built, and maintained as part of a public Chrome Extension-a-Day challenge focused on clinician productivity tools
+## Demo Environment
 
----
+This demo was recorded using a synthetic clinic workflow sandbox.
+No real patient data is used or processed.
 
 ## Features
 

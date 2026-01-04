@@ -54,7 +54,7 @@ Privacy-by-design.
 - Clinical reviews  
 - Ward rounds  
 - Patient follow-ups  
-- Temporary notes alongside EMR systems  
+- Temporary notes alongside clinical documentation workflows (demo)  
 
 ---
 

@@ -12,8 +12,12 @@
 This project is independently designed, built, and maintained as part of a public Chrome Extension-a-Day challenge focused on clinician productivity tools
 ## Demo Environment
 
-This demo was recorded using a synthetic clinic workflow sandbox.
-No real patient data is used or processed.
+This demo was recorded using a **synthetic clinic workflow sandbox** created for demonstration purposes.
+
+- All data shown is synthetic
+- No real patient data is used, stored, or processed
+- Not connected to any clinical or NHS system
+
 
 ## Features
 

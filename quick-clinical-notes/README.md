@@ -3,7 +3,7 @@
 ![Build](https://img.shields.io/badge/status-active_development-success)
 ![Chrome Extension](https://img.shields.io/badge/platform-Chrome_Extension-blue)
 ![Privacy](https://img.shields.io/badge/privacy-local--only-green)
-![Built in Public](https://img.shields.io/badge/built_in-public-orange
+![Built in Public](https://img.shields.io/badge/built_in-public-orange)
 ![Quick Notes Demo](demo.gif)
 
 
